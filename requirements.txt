@@ -1,0 +1,25 @@
+# --- Core framework ---
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+httpx
+
+# --- File processing ---
+pypdf
+pandas
+openpyxl  # pour lire les fichiers Excel
+
+# --- AI & LLM integration ---
+openai  # ou mistralai si tu veux tester Mistral localement
+langchain  # (facultatif pour la gestion de prompts)
+
+# --- Utils & Logging ---
+loguru
+
+# --- Tests & Quality ---
+pytest
+pytest-cov
+mypy
+ruff
+pre-commitpython-multipart
